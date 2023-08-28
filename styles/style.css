@@ -18,7 +18,7 @@
   margin-block-end: 40px;
 }
 
-.header__link-logo{
+.header__link-logo {
   text-decoration: none;
 }
 
@@ -231,7 +231,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%; /* 95.7px */
-  height: 600px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
