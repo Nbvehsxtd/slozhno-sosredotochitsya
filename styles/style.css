@@ -18,6 +18,10 @@
   margin-block-end: 40px;
 }
 
+.header__link-logo{
+  text-decoration: none;
+}
+
 .dekor {
   position: absolute;
   top: 9px;
