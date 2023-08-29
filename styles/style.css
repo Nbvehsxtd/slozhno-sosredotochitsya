@@ -231,16 +231,21 @@
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%; /* 95.7px */
-  height: 100vh;
+  height: calc(100% - 70px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.footer {
+  height: 100vh;
+  margin-block-start: 50px;
+}
+
 .footer::before {
   content: "";
   display: block;
-  margin-block-start: 50px;
+  margin-block-start: 10px;
   margin-right: 10px;
   border-top: 1px solid #ff0070;
   border-right: 1px solid #ff0070;
@@ -369,7 +374,7 @@
 @media (min-width: 768px) {
   .footer__header {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    height: 935px;
+    height: calc(100% - 90px);
   }
 }
 
@@ -441,7 +446,7 @@
 
 @media (min-width: 1024px) {
   .footer__header {
-    height: 680px;
+    height: calc(100% - 90px);
   }
 }
 
@@ -450,4 +455,3 @@
     gap: 10px;
   }
 }
-/*********************************/
